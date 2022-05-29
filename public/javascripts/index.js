@@ -15,7 +15,7 @@ const submitReview = (e) => {
     .then(res => res.json())
     .then (({ analysis }) => {
       if (analysis < 0) {
-        emojiSection.innerHTML = '<p style="color:red">this massage can be unpleasant</p>';
+        section.innerHTML = '<p style="color:red">this massage can be unpleasant</p>';
         title.style.color = 'red';
         outline.style.borderColor = 'red';
       };
