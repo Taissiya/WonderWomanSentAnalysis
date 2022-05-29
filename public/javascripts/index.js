@@ -20,8 +20,8 @@ const submitReview = (e) => {
         outline.style.borderColor = 'red';
       };
       if (analysis === 0) {
-        title.style.color = 'grey';
-        outline.style.borderColor = 'gray';
+        title.style.color = 'blue';
+        outline.style.borderColor = 'blue';
       }
       if (analysis > 0) {
         title.style.color = 'green';
