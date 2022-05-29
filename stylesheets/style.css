@@ -1,5 +1,4 @@
 
-/*отсюда тоже трогать не надо*/
 body {
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +17,7 @@ body {
 
 #reviewForm #review {
   width: 23em;
-  border-radius: 7em;
+  border-radius: 13em;
   padding: 1em;
 }
 
@@ -30,8 +29,6 @@ body {
 #emojiSection {
   text-align: center;
 }
-/*досюда тоже трогать не надо*/
-________________________________
 * {
   margin: 0;
   padding: 0;
@@ -170,7 +167,7 @@ body {
     margin: 0 auto 1rem;
   }
 }
-_______________________________________________
+
 
 
 .containerTxt {
@@ -210,12 +207,11 @@ _______________________________________________
 }
 p{
   margin: 10px;
-  text-align:center;
-  text-shadow: 5px 5px #f5bbbbaa;
+  
   text-decoration-style: wavy;
   font-weight: normal; line-height: 48px; 
-  color: #af6262b3 ;
-  font-size: 40px;
+  color: #070707b3 ;
+  font-size: 20px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   ;
   
@@ -243,4 +239,8 @@ p{
   border-radius: 100px;
   margin: 0.5rem 0.5rem;
   margin-bottom: -10px;
+}
+.p{
+  margin: 10px 20px;
+  text-align: end; 
 }
