@@ -20,10 +20,12 @@ const submitReview = (e) => {
         outline.style.borderColor = 'red';
       };
       if (analysis === 0) {
+          section.innerHTML = '<p></p>';
         title.style.color = 'blue';
         outline.style.borderColor = 'blue';
       }
       if (analysis > 0) {
+          section.innerHTML = '<p></p>';
         title.style.color = 'green';
         outline.style.borderColor = 'green'
       }
